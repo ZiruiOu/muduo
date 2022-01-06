@@ -30,5 +30,5 @@ file(GLOB HEADERS "*.h")
 install(FILES ${HEADERS} DESTINATION include/muduo/base)
 
 if(MUDUO_BUILD_EXAMPLES)
-  add_subdirectory(tests)
+  #add_subdirectory(tests)
 endif()
